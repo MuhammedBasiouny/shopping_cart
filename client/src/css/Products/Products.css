@@ -1,0 +1,32 @@
+.products-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-item {
+  width: 23%;
+}
+
+.product-item img {
+  width: 100%;
+}
+
+.product-desc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+button {
+  background-color: #2b4cd7;
+  border: 1px solid #2b4cd7;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  width: 100%;
+  color: #fff;
+  font-weight: 400;
+  padding: 10px;
+  font-size: 15px;
+}
