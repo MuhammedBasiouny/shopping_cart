@@ -24,14 +24,4 @@
 main {
   grid-area: main;
 }
-footer {
-  grid-area: footer;
-  background-color: #e2e5f1;
-  font-size: 20px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 700;
-  letter-spacing: 2.5px;
-}
+
