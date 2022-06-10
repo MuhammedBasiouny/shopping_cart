@@ -1,0 +1,11 @@
+header {
+  grid-area: header;
+  background-color: #feee00;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+}
