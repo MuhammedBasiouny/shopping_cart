@@ -3,7 +3,7 @@
     "id": "id1",
     "title": "Tuxedo Purple",
     "imageUrl": "/images/product1.jpg",
-    "desc": "This is Product 1",
+    "desc": "Fashion Popular Clothing Party Stage Men's Suit Groomsmen Regular Fit Tuxedo Purple",
     "price": "900",
     "size": ["S", "M"]
   },
@@ -11,7 +11,7 @@
     "id": "id2",
     "title": "Tuxedo Ivory",
     "imageUrl": "/images/product2.jpg",
-    "desc": "This is Product 2",
+    "desc": "Fashion Popular Clothing Party Stage Men's Suit Groomsmen Regular Fit Tuxedo Ivory",
     "price": "800",
     "size": ["XL", "L"]
   },
@@ -19,7 +19,7 @@
     "id": "id3",
     "title": "Tuxedo Blue",
     "imageUrl": "/images/product3.jpg",
-    "desc": "This is Product 3",
+    "desc": "Fashion Popular Clothing Party Stage Men's Suit Groomsmen Regular Fit Tuxedo Blue",
     "price": "1100",
     "size": ["S", "M", "L"]
   },
@@ -27,7 +27,7 @@
     "id": "id4",
     "title": "Tuxedo Gray",
     "imageUrl": "/images/product4.jpg",
-    "desc": "This is Product 4",
+    "desc": "Fashion Popular Clothing Party Stage Men's Suit Groomsmen Regular Fit Tuxedo Gray",
     "price": "1000",
     "size": ["S", "M"]
   }
