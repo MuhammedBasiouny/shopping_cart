@@ -1,7 +1,7 @@
 [
   {
     "id": "id1",
-    "title": "Product 1",
+    "title": "Tuxedo Purple",
     "imageUrl": "/images/product1.jpg",
     "desc": "This is Product 1",
     "price": "900",
@@ -9,7 +9,7 @@
   },
   {
     "id": "id2",
-    "title": "Product 2",
+    "title": "Tuxedo Ivory",
     "imageUrl": "/images/product2.jpg",
     "desc": "This is Product 2",
     "price": "800",
@@ -17,7 +17,7 @@
   },
   {
     "id": "id3",
-    "title": "Product 3",
+    "title": "Tuxedo Blue",
     "imageUrl": "/images/product3.jpg",
     "desc": "This is Product 3",
     "price": "1100",
@@ -25,7 +25,7 @@
   },
   {
     "id": "id4",
-    "title": "Product 4",
+    "title": "Tuxedo Gray",
     "imageUrl": "/images/product4.jpg",
     "desc": "This is Product 4",
     "price": "1000",
