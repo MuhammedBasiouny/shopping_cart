@@ -1,11 +1,11 @@
 import React from 'react';
 import '../../css/Filter/Filter.css';
 
-function Filter({ handleFilterBySize, size, sort, handleFilterByOrder }) {
+function Filter({ handleFilterBySize, size, sort, handleFilterByOrder, productNumber }) {
   return (
     <div className="filter-wrapper">
       <h2 className="filter-title"> Filter </h2>
-      <div className="num-of-producst"> Number of Products 4</div>
+      <div className="num-of-producst"> Number of Products {productNumber}</div>
       <div className="filter-by-size">
         <span>Filter</span>
         <select value={size} className="filter-select" onChange={handleFilterBySize}>
