@@ -21,18 +21,18 @@ function Cart({ cartItems, removeFromCart }) {
   };
 
   return (
-    <div className="cart-wrapper">
-      <div className="cart-title">
+    <div className='cart-wrapper'>
+      <div className='cart-title'>
         {cartItems.length === 0
           ? 'Your shopping cart looks empty'
           : `Cart (${cartItems.length} items)`}
       </div>
-      <div className="cart-items">
+      <div className='cart-items'>
         {cartItems.map((item) => {
           return (
-            <div className="cart-item" key={item.id}>
-              <img src={item.imageUrl} alt="#" />
-              <div className="cart-info">
+            <div className='cart-item' key={item.id}>
+              <img src={item.imageUrl} alt='#' />
+              <div className='cart-info'>
                 <div>
                   <p>{item.title}</p>
                   <p>{item.desc}</p>
@@ -40,10 +40,10 @@ function Cart({ cartItems, removeFromCart }) {
                     quantity:<strong> {item.qty}</strong>
                   </p>
                   <p>
-                    EGP<strong className="price-font"> {item.price}</strong>{' '}
+                    EGP<strong className='price-font'> {item.price}</strong>{' '}
                   </p>
                 </div>
-                <button className="cart-button" onClick={() => removeFromCart(item)}>
+                <button className='cart-button' onClick={() => removeFromCart(item)}>
                   Remove
                 </button>
               </div>
@@ -52,8 +52,8 @@ function Cart({ cartItems, removeFromCart }) {
         })}
       </div>
       {cartItems.length !== 0 && (
-        <div className="cart-footer">
-          <div className="total">
+        <div className='cart-footer'>
+          <div className='total'>
             Total:EGP{' '}
             <strong>
               {cartItems.reduce((acc, item) => {
