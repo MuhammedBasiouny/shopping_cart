@@ -13,14 +13,14 @@ function Products({ products, addToCart }) {
   };
 
   return (
-    <div className="products-wrapper">
+    <div className='products-wrapper'>
       {products.map((product) => (
-        <div className="product-item" key={product.id}>
-          <a href="#" onClick={() => openModal(product)}>
+        <div className='product-item' key={product.id}>
+          <a href='#' onClick={() => openModal(product)}>
             <img src={product.imageUrl} alt={product.title} />
           </a>
 
-          <div className="product-desc">
+          <div className='product-desc'>
             <p>{product.title}</p>
             <span>
               <sup>EGP</sup> {product.price}
